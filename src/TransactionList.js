@@ -26,7 +26,7 @@ const TransactionList = ({ transactions }) => {
                 {tx.amountFormatted}
                 <img src={kaspaIcon} alt="KAS" />
               </td>
-              <td className="amount">{tx.amountInUSD}</td>
+              <td className="amount">${tx.amountInUSD}</td>
               <td style={{ color: tx.typeColor }}>{tx.type}</td>
             </tr>
           ))}
