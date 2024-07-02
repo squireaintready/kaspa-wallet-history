@@ -1,0 +1,41 @@
+/* TransactionList.css */
+
+.table-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #004d40;
+}
+
+th {
+  background-color: #00796b;
+  color: white;
+}
+
+td.amount {
+  text-align: right;
+}
+
+tr:nth-child(even) {
+  background-color: #263238;
+}
+
+tr:nth-child(odd) {
+  background-color: #1b1b1b;
+}
+
+@media (max-width: 600px) {
+  table, th, td {
+    font-size: 0.8em;
+  }
+}
