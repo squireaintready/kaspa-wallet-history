@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kaspa-wallet-history/static/css/main.3d4e4f8c.css",
+    "main.js": "/kaspa-wallet-history/static/js/main.cedd9358.js",
+    "static/js/453.c16368d2.chunk.js": "/kaspa-wallet-history/static/js/453.c16368d2.chunk.js",
+    "index.html": "/kaspa-wallet-history/index.html",
+    "main.3d4e4f8c.css.map": "/kaspa-wallet-history/static/css/main.3d4e4f8c.css.map",
+    "main.cedd9358.js.map": "/kaspa-wallet-history/static/js/main.cedd9358.js.map",
+    "453.c16368d2.chunk.js.map": "/kaspa-wallet-history/static/js/453.c16368d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d4e4f8c.css",
+    "static/js/main.cedd9358.js"
+  ]
+}
