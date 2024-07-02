@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import TransactionList from './TransactionList';
 import SearchBar from './SearchBar';
-import Loader from './Loader'; // Create a new Loader component
+import Loader from './Loader';
 import './App.css';
 
 function App() {
@@ -77,6 +77,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
+        <img src="https://kaspa.org/wp-content/uploads/2023/06/Kaspa-LDSP-Dark-Reverse.svg" alt="Kaspa Logo" />
         <h1>KASPA Wallet Tracker</h1>
         <SearchBar address={address} setAddress={setAddress} fetchTransactions={fetchTransactions} />
         {kasPrice && (

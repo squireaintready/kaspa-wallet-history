@@ -15,15 +15,25 @@ table {
 th, td {
   padding: 10px;
   border: 1px solid #004d40;
+  text-align: center;
 }
 
 th {
-  background-color: #00796b;
-  color: white;
+  background-color: #70C7BA;
+  color: #231F20;
+  font-family: 'Oswald', sans-serif;
 }
 
 td.amount {
   text-align: right;
+  vertical-align: middle;
+}
+
+td.amount img {
+  margin-left: 5px;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
 }
 
 tr:nth-child(even) {
